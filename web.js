@@ -7,7 +7,7 @@ var newoutput = inputbuf.toString('utf8');
 
 
 app.get('/', function(request, response) {
-  response.send('bla test');
+  response.send(newoutput);
 });
 
 var port = process.env.PORT || 5000;
