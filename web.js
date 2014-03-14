@@ -7,7 +7,7 @@ var newoutput = inputbuf.toString('utf8');
 
 
 app.get('/', function(request, response) {
-  response.send(newoutput);
+  response.send("Heelow Wrod");
 });
 
 var port = process.env.PORT || 5000;
